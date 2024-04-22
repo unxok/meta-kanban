@@ -1,22 +1,33 @@
 ---
-test: value
+test: hello there how's ittt
+
 ---
+#test
 
 
-
-This is your new *vault*.
-
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
-
-
-```my-obsidian-plugin
-well hello there
+```meta-kanban
+title: 41
+description: my set of tasks
+id: my-tasks
+dv: |
+  TABLE test 
+  FROM #test
+  SORT file.name ASC
+property: status
+columns:
+  -
+    - in-progress
+    - In Progress
+  - done
+className: dataview
 ```
 
 
-
+```dataview
+TABLE test
+FROM #test
+SORT file.ctime ASC
+```
 
 
 

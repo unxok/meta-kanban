@@ -1,6 +1,6 @@
 {
-	"id": "my-obsidian-plugin",
-	"name": "My Obsidian Plugin",
+	"id": "meta-kanban",
+	"name": "Meta Kanban",
 	"version": "0.0.1",
 	"minAppVersion": "0.0.1",
 	"description": "",
